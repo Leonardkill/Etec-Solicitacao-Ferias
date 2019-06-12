@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Etec-Solicitação de Ferias</string>
+    <string name="Solicitacao">Solicitação</string>
+    <string name="Abono">Abono Pecuniario: </string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="DataInicio">Data Inicio: </string>
+    <string name="Qtdias">Quantidade de dias</string>
+    <string name="Datafim">Data Fim :</string>
+    <string name="Registrar">Registrar</string>
+</resources>
