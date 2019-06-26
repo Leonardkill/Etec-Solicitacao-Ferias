@@ -8,4 +8,6 @@
     <string name="Qtdias">Quantidade de dias</string>
     <string name="Datafim">Data Fim :</string>
     <string name="Registrar">Registrar</string>
+    <string name="Selecione">Selecione</string>
+    <string name="FormataData">__/__/____</string>
 </resources>

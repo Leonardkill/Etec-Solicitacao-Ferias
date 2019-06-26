@@ -41,23 +41,27 @@
 
 
             <RadioGroup
+                android:id="@+id/radioOpcao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="OnRadioClick"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioSim"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:checked="true"
+                    android:onClick="OnRadioClick"
                     android:text="@string/Sim" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioNao"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:onClick="OnRadioClick"
                     android:text="@string/Nao" />
             </RadioGroup>
 
@@ -72,10 +76,11 @@
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btnSelecionar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Selecione" />
+                    android:onClick="onSelecionarData"
+                    android:text="@string/Selecione" />
 
 
             </TableRow>
@@ -93,10 +98,9 @@
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
 
                 <Spinner
-                    android:id="@+id/spinner"
+                    android:id="@+id/spnDias"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    />
+                    android:layout_height="wrap_content" />
             </TableRow>
 
             <TableRow
@@ -111,16 +115,17 @@
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="@color/preto"/>
 
-                <TextView
-                    android:id="@+id/textView8"
+                <Button
+                    android:id="@+id/btnDatafim"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/FormataData" />
+
             </TableRow>
 
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnRegistrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Registrar" />
